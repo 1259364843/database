@@ -1,0 +1,7 @@
+create database 宋长河;
+
+show databases;
+
+use 宋长河;
+
+describe worker;

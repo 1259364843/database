@@ -1,0 +1,35 @@
+create database 宋长河
+
+use 宋长河
+
+create table 通讯录(
+姓名 char(6),
+性别 char(2),
+年龄 int,
+籍贯 char(40),
+电话 char(11)
+);
+
+
+Insert into 通讯录 Value('宋长河','男',20,'雅安','17746755089');
+
+Insert into 通讯录 Value('陈彬','男',21,'成都','17746755090');
+
+Insert into 通讯录 Value('罗兴成','男',21,'成都','17746755091');
+
+Insert into 通讯录 Value('刘知非','男',20,'广安','17746755092');
+
+
+
+Insert into 通讯录 Value('白洋','男',20,'成都','17746755093');
+
+
+
+
+SELECT * FROM 通讯录;
+
+
+
+
+
+Update 通讯录 Set 姓名 = '穆哈木得西门吹牛' Where 姓名 = '李士平';
